@@ -1,5 +1,5 @@
 import click
-from chrono_parser.time_data_parser import TimeDataParser
+from atracker_data_parser.time_data_parser import TimeDataParser
 
 @click.command()
 @click.option("--filepath", "-f", required=True, help="path to sqlite-file of time-data")

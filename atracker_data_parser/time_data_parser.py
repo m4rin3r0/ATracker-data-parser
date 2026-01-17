@@ -1,6 +1,6 @@
 import pandas as pd
 import pytz
-from chrono_parser.sqlite_reader import SQliteReader
+from atracker_data_parser.sqlite_reader import SQliteReader
 
 class TimeDataParser:
 
