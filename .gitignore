@@ -1,0 +1,8 @@
+__pycache__/
+chrono_parser/__pycache__/
+*.pyc
+*.db
+.env
+data/
+.venv/
+.vscode/
