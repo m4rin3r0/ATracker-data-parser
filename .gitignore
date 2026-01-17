@@ -6,3 +6,4 @@ chrono_parser/__pycache__/
 data/
 .venv/
 .vscode/
+.DS_Store
