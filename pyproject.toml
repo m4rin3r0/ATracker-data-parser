@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atracker-data-parser"
+version = "1.0"
+description = "Parse ATracker backup archives into time entry data."
+requires-python = ">=3.10"
+dependencies = [
+  "click==8.3.1",
+  "pandas==2.3.3",
+  "pytz==2025.2",
+]
+
+[project.scripts]
+ATracker-data-parser = "atracker_data_parser.__main__:main"
+
+[tool.setuptools]
+packages = ["atracker_data_parser"]
